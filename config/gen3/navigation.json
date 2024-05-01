@@ -1,6 +1,10 @@
 {
-  "type": "horizontal",
   "navigation": {
+    "classNames": {
+      "root": "pl-1 mr-6 bg-base-max text-primary opacity-100 hover:opacity-100",
+      "item": "py-2 px-4 hover:bg-base-lightest hover:text-base-contrast",
+      "navigationPanel": "bg-base-max text-primary"
+    },
     "logo": {
       "src": "/icons/gen3-dark.svg",
       "height": 128,
@@ -39,7 +43,7 @@
       },
       {
         "icon": "gen3:workspace",
-        "href": "/Workspace",
+        "href": "/#hostname#workspace/",
         "name": "Workspace",
         "tooltip": "Gen3 workspaces are secure data analysis environments in the cloud that can access data from one or more data resources."
       },
